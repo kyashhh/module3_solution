@@ -1,0 +1,113 @@
+body{
+    background-color: rgb(233, 233, 233);
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: #ffffff;
+}
+
+#our-menu {
+    font-size: 35px;
+    padding: 20px;
+    margin-bottom: 40px;
+    color: rgb(100, 100, 100);
+}
+
+.menu{
+    height: 400px;
+    width: 30%;
+    background-color: rgb(223, 223, 223);
+    border: 4px rgb(100, 100, 100) solid;
+    padding: 10px; 
+    overflow: auto;
+    text-align: center;
+    margin: auto 10px auto 10px;
+}
+
+#title {
+    font-weight: d;
+    font-size: 25px;
+    color: rgb(100, 100, 100);
+    margin-bottom: 10px;
+}
+
+#backtotop {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+/****Medium Devices****/
+@media (min-width: 1200px){
+    .navbar-toggler{
+        visibility: hidden;
+    }
+    .row a {
+        visibility: hidden;
+    }
+}
+
+/****Small Devices****/
+@media (min-width: 767px) and (max-width: 1199px){
+    .navbar-toggler{
+        visibility: hidden;
+    }
+    .row a {
+        visibility: hidden;
+    }
+    
+}
+
+/****Extra Small Devices****/
+@media (min-width: 591px) and (max-width: 766px) {
+    #nav-list {
+        margin-top: 10px;
+      }
+    #nav-list a {
+        color: #bb9191;
+        text-align: center;
+      }
+    #nav-list a:hover{
+        background: #a79f9f;
+      }
+
+    .menu {
+        height: 300px;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .row .menu{
+        margin-top: 10px;
+    }
+    
+    
+}
+
+/****Extra Small Devices****/
+@media (max-width: 590px) {
+    #nav-list {
+        margin-top: 10px;
+      }
+    #nav-list a {
+        color: #bb9191;
+        text-align: center;
+      }
+    #nav-list a:hover{
+        background: #a79f9f;
+      }
+
+    .menu {
+        height: 300px;
+        width: 92%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .row .menu{
+        margin-top: 10px;
+    }
+    
+    
+}
